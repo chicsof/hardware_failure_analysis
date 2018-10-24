@@ -33,10 +33,13 @@ From domain knowledge we know that date plays a major role as well. Month end an
 ## Working with Data
 
 ```r
+#...
 #see how are data looks:
 plot(cpuDataSet$timestamp, cpuDataSet$totalCPUUsage)
 #threshold for desired range
 abline(h=75, col="red")
 ```
+
+[Click here](./hardware_failure_analysis.R) to see the full data cleansing code.
 
 ![cpu usage over time](./images/cpu_usage_over_time.png)

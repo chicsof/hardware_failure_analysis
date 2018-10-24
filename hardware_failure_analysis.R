@@ -37,15 +37,3 @@ max(frTable)
 plot(cpuDataSet$timestamp, cpuDataSet$totalCPUUsage)
 #threshold for desired range
 abline(h=75, col="red")
-
-
-
-
-
-
-
-
-
-
-
-
